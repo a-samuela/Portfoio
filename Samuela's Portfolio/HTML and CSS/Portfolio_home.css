@@ -1,0 +1,232 @@
+body {
+    background-color: rgb(8, 12, 37);
+    color: white;
+    margin: 4%;
+}
+
+/* header */
+
+header {
+    display: flex;
+}
+
+.header {
+    margin-right: 45%;
+    color: (185, 67, 136);
+    display: flex;
+    font-style: italic;
+    display: flex;
+        font-style: italic;
+        flex-direction: column;
+}
+
+#name1 {
+    padding-left: 20px;
+}
+
+#name2 {
+    color: rgb(185, 67, 136);
+    font-size: 20px;
+    margin-top: -12px;
+}
+
+button {
+    font-weight: 700;
+    border: none;
+    background-color: rgb(8, 12, 37);
+        cursor: pointer;
+    color: white;
+    margin-right: 40px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px;
+}
+
+button:hover {
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-right: 40px;
+    color: white;
+    background-color: rgb(9, 15, 54);
+    border: 2px solid goldenrod;
+    padding: 8px 18px;
+    font-weight: 700;
+}
+ .headLinks:active{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+ }
+ .headLinks:hover{
+    text-decoration: none;
+        color: white;
+        font-weight: 700;
+ }
+  .headLinks {
+text-decoration: none;  
+    color: white;
+      font-weight: 700;
+  }
+.headLinks:visited{
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+    }
+
+/* body */
+
+.page1 {
+    margin: 20px 10px;
+    display: flex;
+}
+img{
+    height: 130%;
+    border-radius: 50%;
+            overflow: hidden;
+            position: relative;
+            width: 250%;
+        }
+
+.text {
+    margin-top: 2%;
+    /* position: relative; */
+    margin-left: 30%;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 55px;
+    color:rgb(245, 181, 18) ;
+}
+
+.text h2 {
+    font-style: italic;
+    margin-top: -53px;
+}
+.footer{
+    position: relative;
+    bottom: -60px;
+}
+span{
+    /* border: 2px solid white; */
+}
+.footer a{text-decoration: none;
+    color: rgb(245, 181, 18);
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+
+/* page 2: about me */
+.page2{
+    margin-top: 15%;
+    padding: 3%;
+    border-radius: 100px;
+    background-color: whitesmoke;
+    color: black;
+}
+#aboutme h1 {
+    margin-top: -1% ;
+    text-align: center;
+  
+}
+#aboutme p{
+    margin-top: -25px;
+}
+
+hr{
+    width: 70%;
+    border: 1.5px solid rgb(9, 15, 54);
+    /* border-radius: 5px; */
+    margin: 50px auto;
+    opacity: 80%;
+}
+
+ul{
+    display: flex;
+    text-align: center;
+margin-left: 28%;
+}
+li{ margin-left: 50px;
+font-size: 25px;
+background: linear-gradient( rgba(236, 14, 14, 0.863), rgb(26, 9, 184));
+    -webkit-background-clip: text;
+    font-weight: 800;
+    -webkit-text-fill-color: transparent;}
+
+/* page 3 */
+#myproject{
+    margin-top: 5%;
+
+}
+
+/* page 3: my projects */
+.grid_container {
+    margin: 20px 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5% 1.5%;
+}
+
+.card {
+    width: 60 px;
+    height: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.image {
+    /* border: 1px solid;*/
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: all 1.1s;
+}
+
+ .card:hover .image {
+     /* inside the card, when you hover, the image div should zoom  */
+     transform: scale(1.2, 1.2);
+} 
+
+.span_text {
+    color: rgb(245, 181, 18); 
+    font-style: cursive;
+    font-size: 15px;
+        position: relative;
+        font-weight: 700;
+        bottom: 30px;
+        left: 5%;
+}
+/* 
+#second {
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: grey;
+    position: relative;
+    bottom: 28%;
+    left: 8%;
+} */
+
+.bg-1 {
+    background-image: url(./images/project.png);}
+
+.bg-2 {
+    background-image: url(./images/facebook\ login.png);}
+
+.bg-3 {
+    background-image: url(./images/Untitled.png);}
+
+.bg-4{
+    background-image: url(./images/perfume.png);}
+
+.bg-5{
+    background-image: url(./images/nth\ table.png);}
+.bg-6 {
+    background-image: url(./images/form.png);
+}
+/* footer */
+footer{
+    margin-top: 70px;
+}
